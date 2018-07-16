@@ -4,7 +4,7 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes unnecessary stuff from the end of Amazon product URLs
-// @version      0.4.1
+// @version      0.4.2
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/clean-amazon-urls.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/clean-amazon-urls.user.js
 // @match        https://www.amazon.com/dp/*
@@ -24,7 +24,7 @@
 
 (function() {
     if (window.self === window.top
-        && !window.location.startsWith('/gp/product/handle-buy-box')
+        && !window.location.pathname.startsWith('/gp/product/handle-buy-box')
         && (window.location.pathname.match(/^(\/[^/]*)?\/dp\/[^/]*\/ref=/)
             || window.location.pathname.match(/^\/gp\/product\/[^/]*\/ref=/)
             || window.location.search.startsWith('?pf_rd')
