@@ -4,7 +4,7 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes unnecessary stuff from the end of Etsy product URLs
-// @version      0.2.0
+// @version      0.2.1
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/clean-etsy-urls.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/clean-etsy-urls.user.js
 // @match        http://www.etsy.com/listing/*/*
@@ -21,7 +21,7 @@
         var newSearch = window.location.search.replace(/&ref=[^&]*/, ''); // removes non-leading parameter `ref`
             newSearch = newSearch.replace(/ref=[^&]*&/, '');              // removes a leading parameter `ref` IF there are other parameters after it; this preserves the '?' for them
             newSearch = newSearch.match(/^\?ref=[^&]*/) ? '' : newSearch; // removes a leading parameter `ref` IF there are no other parameters
-            newSearch = window.location.search.replace(/&ga_[^&=]*=[^&]*/, ''); // removes non-leading parameter `ga_*`
+            newSearch = newSearch.replace(/&ga_[^&=]*=[^&]*/, '');              // removes non-leading parameter `ga_*`
             newSearch = newSearch.replace(/ga_[^&=]*=[^&]*&/, '');              // removes a leading parameter `ga_*` IF there are other parameters after it; this preserves the '?' for them
             newSearch = newSearch.match(/^\?ga_[^&=]*=[^&]*/) ? '' : newSearch; // removes a leading parameter `ga_*` IF there are no other parameters
         var newURL = 'https://' + window.location.host + window.location.pathname + newSearch + window.location.hash;
