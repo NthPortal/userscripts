@@ -4,11 +4,10 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes `[&?]utm_` and other analytics junk from URLs
-// @version      0.3.1
+// @version      0.3.2
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
-// @match        http://*/*
-// @match        https://*/*
+// @match        *://*/*
 // @noframes
 // @run-at       document-start
 // ==/UserScript==
