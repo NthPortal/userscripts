@@ -4,13 +4,11 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes unnecessary stuff from the end of Etsy product URLs
-// @version      0.3.0
+// @version      0.3.1
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/clean-etsy-urls.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/clean-etsy-urls.user.js
-// @match        http://www.etsy.com/listing/*/*
-// @match        https://www.etsy.com/listing/*/*
-// @match        http://www.etsy.com/*/listing/*/*
-// @match        https://www.etsy.com/*/listing/*/*
+// @match        *://www.etsy.com/listing/*/*
+// @match        *://www.etsy.com/*/listing/*/*
 // @noframes
 // @run-at       document-start
 // ==/UserScript==
