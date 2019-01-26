@@ -4,13 +4,11 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Redirects www.amazon.<domain> URLs to their smile.amazon.<domain> equivalent
-// @version      0.1.0
+// @version      0.1.1
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/amazon-smile-redirect.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/amazon-smile-redirect.user.js
-// @match        http://www.amazon.com/*
-// @match        https://www.amazon.com/*
-// @match        http://www.amazon.co.uk/*
-// @match        https://www.amazon.co.uk/*
+// @match        *://www.amazon.com/*
+// @match        *://www.amazon.co.uk/*
 // @noframes
 // @run-at       document-start
 // ==/UserScript==

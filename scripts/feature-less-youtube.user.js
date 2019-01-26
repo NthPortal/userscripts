@@ -4,11 +4,10 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes `&feature=___` from YouTube URLs
-// @version      0.2.1
+// @version      0.2.2
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/feature-less-youtube.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/feature-less-youtube.user.js
-// @match        http://www.youtube.com/watch*
-// @match        https://www.youtube.com/watch*
+// @match        *://www.youtube.com/watch*
 // @noframes
 // @run-at       document-start
 // ==/UserScript==
