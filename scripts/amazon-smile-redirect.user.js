@@ -4,7 +4,7 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Redirects www.amazon.<domain> URLs to their smile.amazon.<domain> equivalent when logged in
-// @version      0.3.0
+// @version      0.3.1
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/amazon-smile-redirect.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/amazon-smile-redirect.user.js
 // @match        *://www.amazon.com/*
@@ -26,12 +26,18 @@
     const loopTimestampThreshold = 800; // 800 ms
     const noRedirectTimestampThreshold = 1000 * 60 * 60 * 24; // 1 day
 
+    // for sanity
+    function int(str) {
+        return parseInt(str, 10);
+    }
+
     // per-run values
     const curTimestamp = Date.now(); // ms
-    const prevTimestamp = getOrElse(timestampKey, 0);
+    const prevTimestamp = int(getOrElse(timestampKey, 0));
     const timestampDiff = curTimestamp - prevTimestamp;
     const thisUrl = window.location.href;
 
+    // get a localStorage item if set; use the provided value if not
     function getOrElse(key, ifNull) {
         let res = window.localStorage.getItem(key);
         return res === null ? ifNull : res;
@@ -69,7 +75,7 @@
         }
 
         // check if we've looped too many times
-        let loopCount = getOrElse(loopCountKey, 0);
+        let loopCount = int(getOrElse(loopCountKey, 0));
         if (loopCount >= maxLoops) {
             // set marker saying we've looped too many times
             window.localStorage.setItem(noRedirectKey, true);
