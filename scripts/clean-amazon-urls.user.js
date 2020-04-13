@@ -4,7 +4,7 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Removes unnecessary stuff from the end of Amazon product URLs
-// @version      0.4.3
+// @version      0.5.0
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/clean-amazon-urls.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/clean-amazon-urls.user.js
 // @match        https://www.amazon.com/dp/*
@@ -25,11 +25,11 @@
 
 (function() {
     if (!window.location.pathname.startsWith('/gp/product/handle-buy-box')
-        && (window.location.pathname.match(/^(\/[^/]*)?\/dp\/[^/]*\/ref=/)
-            || window.location.pathname.match(/^\/gp\/product\/[^/]*\/ref=/)
+        && (window.location.pathname.match(/^(\/[^/]*)?\/dp\/[^/]*(\/ref_?=)?/)
+            || window.location.pathname.match(/^\/gp\/product\/[^/]*(\/ref_?=)/)
             || window.location.search.startsWith('?pf_rd')
             || window.location.search.includes('&pf_rd'))) {
-        var newPath = window.location.pathname.replace(/\/ref=.*$/, '');
+        var newPath = window.location.pathname.replace(/\/ref_?=.*$/, '');
             newPath = newPath.replace(/^\/[^/]*\/dp/, '/dp');
             newPath = newPath.replace(/^\/gp\/product/, '/dp');
         var newURL = 'https://' + window.location.host + newPath + window.location.hash; // skip search
