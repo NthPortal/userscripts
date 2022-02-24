@@ -15,9 +15,7 @@
 (function() {
     function allow_text_selection() {
         for (var elem of document.getElementsByClassName('storytextp')) {
-            console.log(elem);
-            console.log(elem.style.removeProperty('user-select'));
-            console.log(elem);
+            elem.style.removeProperty('user-select');
         }
     }
     window.setTimeout(allow_text_selection, 1000);
