@@ -4,7 +4,7 @@
 // @author       NthPortal
 // @license      Apache License 2.0
 // @description  Allows text selection on FanFiction.net
-// @version      0.2.0
+// @version      0.3.0
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/selectable-ffnet.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/selectable-ffnet.user.js
 // @match        *://www.fanfiction.net/s/*/*/*
