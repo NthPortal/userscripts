@@ -4,10 +4,10 @@
 // @author       Marissa
 // @license      Apache License 2.0
 // @description  Adds a latest chapter button to the top navigation.
-// @version      0.3.0
+// @version      0.3.1
 // @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-latest-chapter.user.js
 // @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-latest-chapter.user.js
-// @match        https://archiveofourown.org/*
+// @match        https://archiveofourown.org/works/*
 // @run-at       document-end
 // ==/UserScript==
 
