@@ -4,12 +4,15 @@
 // @author       Marissa
 // @license      Apache License 2.0
 // @description  Adds a latest chapter button to the top navigation.
-// @version      0.3.1
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-latest-chapter.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-latest-chapter.user.js
+// @version      0.3.2
+// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-first-latest-chapter-buttons.user.js
+// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-first-latest-chapter-buttons.user.js
 // @match        https://archiveofourown.org/works/*
 // @run-at       document-end
 // ==/UserScript==
+
+// ==== IMPORTANT ====
+// This script has been superseded and will eventually be deleted
 
 (function() {
     const match = location.pathname.match(/^(\/works\/\d+\/chapters\/)\d+/);
