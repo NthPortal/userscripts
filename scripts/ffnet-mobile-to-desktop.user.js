@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Redirects mobile FFNet to desktop site
 // @version      0.1.1
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ffnet-mobile-to-desktop.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ffnet-mobile-to-desktop.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/ffnet-mobile-to-desktop.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/ffnet-mobile-to-desktop.user.js
 // @match        *://m.fanfiction.net/*
 // @noframes
 // @run-at       document-start

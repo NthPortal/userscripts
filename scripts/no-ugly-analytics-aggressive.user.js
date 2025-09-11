@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Removes `[&?]utm_` and other analytics junk from URLs
 // @version      0.3.3
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/no-ugly-analytics-aggressive.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/no-ugly-analytics-aggressive.user.js
 // @match        *://*/*
 // @noframes
 // @run-at       document-start

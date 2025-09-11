@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Removes `&feature=___` from YouTube URLs
 // @version      0.2.3
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/feature-less-youtube.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/feature-less-youtube.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/feature-less-youtube.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/feature-less-youtube.user.js
 // @match        *://www.youtube.com/watch*
 // @noframes
 // @run-at       document-start

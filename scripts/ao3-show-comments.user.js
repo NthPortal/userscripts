@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Show comments for AO3 works
 // @version      0.1.2
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ao3-show-comments.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ao3-show-comments.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/ao3-show-comments.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/ao3-show-comments.user.js
 // @match        https://archiveofourown.org/works/*
 // @grant        none
 // @run-at       document-start

@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Removes unnecessary stuff from the end of eBay product URLs
 // @version      0.1.1
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-ebay-urls.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-ebay-urls.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-ebay-urls.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-ebay-urls.user.js
 // @match        https://www.ebay.com/itm/*
 // @noframes
 // @run-at       document-start

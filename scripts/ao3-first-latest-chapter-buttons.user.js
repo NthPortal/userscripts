@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Adds buttons for the first and latest chapters to the top navigation.
 // @version      0.4.1
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/branch/master/scripts/ao3-first-latest-chapter-buttons.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/branch/master/scripts/ao3-first-latest-chapter-buttons.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/branch/main/scripts/ao3-first-latest-chapter-buttons.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/branch/main/scripts/ao3-first-latest-chapter-buttons.user.js
 // @match        https://archiveofourown.org/works/*
 // @run-at       document-end
 // ==/UserScript==

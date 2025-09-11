@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Removes unnecessary stuff from the end of Etsy product URLs
 // @version      0.3.2
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-etsy-urls.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-etsy-urls.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-etsy-urls.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-etsy-urls.user.js
 // @match        *://www.etsy.com/listing/*/*
 // @match        *://www.etsy.com/*/listing/*/*
 // @noframes

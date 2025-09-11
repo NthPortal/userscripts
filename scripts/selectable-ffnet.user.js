@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Allows text selection on FanFiction.net
 // @version      0.3.1
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/selectable-ffnet.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/selectable-ffnet.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/selectable-ffnet.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/selectable-ffnet.user.js
 // @match        *://www.fanfiction.net/s/*
 // @noframes
 // @run-at       document-idle

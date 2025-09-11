@@ -5,8 +5,8 @@
 // @license      CC0
 // @description  Removes unnecessary stuff from the end of Amazon product URLs
 // @version      0.5.2
-// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-amazon-urls.user.js
-// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/clean-amazon-urls.user.js
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-amazon-urls.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/main/scripts/clean-amazon-urls.user.js
 // @match        https://www.amazon.com/dp/*
 // @match        https://www.amazon.com/*/dp/*
 // @match        https://www.amazon.com/gp/product/*
