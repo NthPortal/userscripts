@@ -2,11 +2,11 @@
 // @name         FFNet Desktop to Mobile
 // @namespace    https://princess.lgbt
 // @author       Marissa
-// @license      Apache License 2.0
+// @license      CC0
 // @description  Redirects desktop FFNet to mobile site
-// @version      0.1.0
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ffnet-desktop-to-mobile.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ffnet-desktop-to-mobile.user.js
+// @version      0.1.1
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ffnet-desktop-to-mobile.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ffnet-desktop-to-mobile.user.js
 // @match        *://www.fanfiction.net/*
 // @noframes
 // @run-at       document-start

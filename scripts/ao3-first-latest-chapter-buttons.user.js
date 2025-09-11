@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         AO3 First and Latest Chapter Buttons
-// @namespace    princess.lgbt
+// @namespace    https://princess.lgbt/
 // @author       Marissa
-// @license      Apache License 2.0
+// @license      CC0
 // @description  Adds buttons for the first and latest chapters to the top navigation.
-// @version      0.4.0
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-first-latest-chapter-buttons.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-first-latest-chapter-buttons.user.js
+// @version      0.4.1
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/branch/master/scripts/ao3-first-latest-chapter-buttons.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/branch/master/scripts/ao3-first-latest-chapter-buttons.user.js
 // @match        https://archiveofourown.org/works/*
 // @run-at       document-end
 // ==/UserScript==

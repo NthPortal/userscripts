@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Selectable FFNet
-// @namespace    https://nthportal.com
-// @author       NthPortal
-// @license      Apache License 2.0
+// @name         FFNet Selectable Text
+// @namespace    https://princess.lgbt/
+// @author       Marissa
+// @license      CC0
 // @description  Allows text selection on FanFiction.net
-// @version      0.3.0
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/selectable-ffnet.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/selectable-ffnet.user.js
-// @match        *://www.fanfiction.net/s/*/*/*
+// @version      0.3.1
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/selectable-ffnet.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/selectable-ffnet.user.js
+// @match        *://www.fanfiction.net/s/*
 // @noframes
 // @run-at       document-idle
 // ==/UserScript==

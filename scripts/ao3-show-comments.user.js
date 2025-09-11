@@ -2,11 +2,11 @@
 // @name         Show AO3 Comments
 // @namespace    https://princess.lgbt/
 // @author       Marissa
-// @license      Apache License 2.0
+// @license      CC0
 // @description  Show comments for AO3 works
-// @version      0.1.1
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-show-comments.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/ao3-show-comments.user.js
+// @version      0.1.2
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ao3-show-comments.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/ao3-show-comments.user.js
 // @match        https://archiveofourown.org/works/*
 // @grant        none
 // @run-at       document-start

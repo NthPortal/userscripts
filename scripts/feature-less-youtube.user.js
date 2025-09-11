@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         feature-less YouTube
-// @namespace    https://nthportal.com
-// @author       NthPortal
-// @license      Apache License 2.0
+// @namespace    https://princess.lgbt/
+// @author       Marissa
+// @license      CC0
 // @description  Removes `&feature=___` from YouTube URLs
-// @version      0.2.2
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/feature-less-youtube.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/feature-less-youtube.user.js
+// @version      0.2.3
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/feature-less-youtube.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/feature-less-youtube.user.js
 // @match        *://www.youtube.com/watch*
 // @noframes
 // @run-at       document-start

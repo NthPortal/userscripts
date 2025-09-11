@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         No Ugly Analytics (aggressive)
-// @namespace    https://nthportal.com
-// @author       NthPortal
-// @license      Apache License 2.0
+// @namespace    https://princess.lgbt/
+// @author       Marissa
+// @license      CC0
 // @description  Removes `[&?]utm_` and other analytics junk from URLs
-// @version      0.3.2
-// @updateURL    https://github.com/NthPortal/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
-// @downloadURL  https://github.com/NthPortal/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
+// @version      0.3.3
+// @updateURL    https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
+// @downloadURL  https://codeberg.org/cuddle_puddle/userscripts/raw/master/scripts/no-ugly-analytics-aggressive.user.js
 // @match        *://*/*
 // @noframes
 // @run-at       document-start
